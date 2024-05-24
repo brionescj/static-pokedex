@@ -1,0 +1,34 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Pokedex</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="banner">
+        <div><a href="index.html"><img src="img/pokedex.png" style="width: 70px; height: 60px;"></a></div>
+        <div><a href="index.html"><p>POKEDEX</p></a></div>
+        <div class="buscador">
+            <select id="typeP" name="select">
+                <option>Tipo</option>
+                <option value="Grass">Planta</option>
+                <option value="Poison">Veneno</option>
+                <option value="Fire">Fuego</option>
+                <option value="Flying">Volador</option>     
+                <option value="Water">Agua</option>
+                <option value="Bug">Bicho</option>
+                <option value="Normal">Normal</option>
+            </select>
+            <form id="seekers">
+                <input id="seeks" type="text" placeholder="Nombre Pokemon"/>
+                <input class="button" type="submit" value="Buscar Pokemon">
+            </form>
+        </div>
+    </div>
+    <div id="content">
+    </div>
+    
+</body>
+<script src="main.js"></script>
+</html>

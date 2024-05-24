@@ -1,0 +1,151 @@
+body{
+    background: linear-gradient(to bottom right, rgb(27, 27, 27), rgb(59, 57, 57));
+    max-height: 100%;
+    
+}
+
+img{
+    height: 300px;
+    width: 250px;
+}
+p{
+    background: linear-gradient(to bottom right, rgba(197, 188, 188, 0.884), rgba(248, 250, 248, 0.966));
+    -webkit-background-clip: text;
+    color: transparent;  
+}
+
+a{
+    text-decoration: none
+}
+
+.banner{
+    margin-left: 74px;
+    margin-right: 75px;
+    background: linear-gradient(to bottom right, rgba(57, 55, 59, 0.884), rgba(94, 97, 94, 0.815));
+    height: 70px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: start;
+    justify-content: space-between;
+}
+
+.buscador{
+    margin-top: 15px;
+    display: flex;
+}
+
+#typeP{
+    height: 21px;
+    margin-top: 12px;
+    margin-right: 20px;
+}
+
+#content{
+    display: flex;
+    margin: 8px;
+    padding-top: 10px;
+    height: 100%;
+    border-radius: 15px;
+    max-width: 98%;
+    flex-direction: row;
+    flex-wrap: wrap;    
+}
+
+.recuadros{
+    margin-left: 2.7%;
+    margin-top: 1%;
+    display: flex;
+    height: 45%;
+    width: 13.23%;
+    border-radius: 10px;
+}
+
+.cont-recuadros{
+    display: block;
+    height: 90%;
+    width: 90%;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.content-header{
+    height: 10%;
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+}
+
+.content-body{
+    height: 75%;
+    padding-left: 8%;
+
+}
+
+.content-footer{
+    height: 15%;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+}
+
+.verde{
+    background: linear-gradient(to bottom right, rgba(143, 236, 120, 0.274), rgb(9, 129, 35));
+    border: solid 4px;
+    border-color: rgb(21, 153, 92);
+    box-shadow: 8px 8px 10px 0px rgba(25, 158, 65, 0.829)
+}
+
+.rojo{
+    background: linear-gradient(to bottom right, rgb(122, 10, 10),rgba(236, 60, 60, 0.842));
+    border: solid 4px;
+    border-color: rgb(185, 37, 37);
+    box-shadow: 8px 8px 10px 0px rgba(206, 43, 43, 0.829)
+}
+
+.azul{
+    background: linear-gradient(to bottom right, rgba(25, 7, 124, 0.822), rgb(46, 50, 231));
+    border: solid 4px;
+    border-color: rgb(16, 55, 141);
+    box-shadow: 8px 8px 10px 0px rgba(42, 93, 235, 0.829)
+}
+
+.verde-morado{
+    background: linear-gradient(to bottom right, rgba(8, 114, 8, 0.986), rgb(141, 41, 187));
+    border: solid 4px;
+    border-color: rgb(16, 55, 141);
+    box-shadow: 8px 8px 10px 0px rgba(103, 61, 122, 0.829)
+}
+
+.rojo-indigo{
+    background: linear-gradient(to bottom right, rgb(122, 10, 10), rgb(122, 123, 192));
+    border: solid 4px;
+    border-color: rgb(16, 55, 141);
+    box-shadow: 8px 8px 10px 0px rgba(42, 93, 235, 0.829)
+}
+
+.verde-indigo{
+    background: linear-gradient(to bottom right, rgba(143, 236, 120, 0.274), rgb(122, 123, 192));
+    border: solid 4px;
+    border-color: rgb(16, 55, 141);
+    box-shadow: 8px 8px 10px 0px rgba(42, 93, 235, 0.829)
+}
+
+.cafe-morado{
+    background: linear-gradient(to bottom right, rgba(126, 88, 18, 0.863), rgb(141, 41, 187));
+    border: solid 4px;
+    border-color: rgb(16, 55, 141);
+    box-shadow: 8px 8px 10px 0px rgba(42, 93, 235, 0.829)
+}
+
+.gris-indigo{
+    background: linear-gradient(to bottom right, rgba(109, 110, 109, 0.836), rgb(122, 123, 192));
+    border: solid 4px;
+    border-color: rgb(16, 55, 141);
+    box-shadow: 8px 8px 10px 0px rgba(42, 93, 235, 0.829)
+}
